@@ -1,15 +1,45 @@
-# React File Upload
+# Word to Pdf Converter
 
-> This is a full stack React-Express file uploader but could easily be modified to work with any back-end including cloud storage
+> This is a full stack React-Express file converter 
 
-## Quick Start
+## Table of contents
 
-```bash
-# Install dependencies server/client
-npm install
-cd client
-npm install
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
 
-# Serve on localhost:3000
-npm run dev
-```
+## Overview
+This is a full stack React-Express file converter project 
+
+### The challenge
+
+Users should be able to:
+
+- upload docx files
+- get back pdf file
+- download pdf file
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- node.js 
+- express
+- fileupload package
+- pdf-docx package
+
+## Author
+- Mariam Ayman Kilany
+
