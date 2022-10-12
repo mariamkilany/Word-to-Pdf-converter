@@ -49,7 +49,6 @@ app.post('/api/upload', (req, res) => {
         console.log('result'+result);
         res.json({ fileName: file.name, filePath: `/uploads/${First_name}.pdf` });
         });
-    // res.json({ fileName: file.name, filePath: `/uploads/${name}.pdf` });
     }
   });
 });
