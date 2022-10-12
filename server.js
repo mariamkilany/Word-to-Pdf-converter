@@ -14,10 +14,10 @@ app.use(fileUpload());
 app.use(logger("dev"))
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
-app.use(express.static(path.join(__dirname,"./client/build")))
+app.use(express.static(path.join(__dirname,"/client/build")))
 
 app.get('*',(_,res)=>{
-  res.sendFile(path.join(__dirname,"./client/build/index.html"),(err)=>{
+  res.sendFile(path.join(__dirname,"/client/build/index.html"),(err)=>{
     if(err)
     res.status(500).send(err)
   })
