@@ -53,5 +53,5 @@ app.post('/api/upload', (req, res) => {
     }
   });
 });
-
-app.listen(5000, () => console.log('Server Started...'));
+const PORT=5000
+app.listen(PORT, () => console.log('Server Started on '+PORT));
