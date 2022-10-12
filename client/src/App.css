@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: #f9f9f9;
+    box-shadow: 0px 4px 5px #0000004d;
+}
+
+main {
+    padding: 0 !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    padding: 35px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+footer {
+    background-image: url('./footer.gif');
+    background-size: contain;
+    background-position: center;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+.progress{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.uploaded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
