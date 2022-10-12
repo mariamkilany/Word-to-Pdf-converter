@@ -4,6 +4,7 @@ const path = require('path');
 var docxConverter = require('docx-pdf');
 const logger = require("morgan")
 const cors = require("cors");
+const dotenv = require('dotenv')
 
 const app = express();
 const extend_pdf = '.pdf'
@@ -53,5 +54,5 @@ app.post('/api/upload', (req, res) => {
     }
   });
 });
-const PORT=5000
+const PORT=process.env.PORT||5000
 app.listen(PORT, () => console.log('Server Started on '+PORT));
